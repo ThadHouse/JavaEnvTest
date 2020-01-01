@@ -8,6 +8,8 @@
       "type": "java",
       "name": "Debug (Launch) - Current File",
       "env": {
+        "LD_LIBRARY_PATH": "LdPath",
+        "DYLD_LIBRARY_PATH": "DyldPath",
         "TestVar": "MyVal"
       },
       "request": "launch",
